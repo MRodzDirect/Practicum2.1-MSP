@@ -1,3 +1,7 @@
+---
+typora-root-url: ./
+---
+
 
 ***
 
@@ -70,6 +74,10 @@ timedatectl status
 
 ## Disk Partitioning Strategy
 
+### Old partition Layout
+
+![image-20251009114117403](.\assets\arch-optiplex7010\image-20251009114117403.png)
+
 ### Partition Layout Decision
 
 For a 120–128 GB disk with security, development, and virtualization requirements:
@@ -111,6 +119,10 @@ mkfs.ext4 -L BOOT /dev/sda2
 ```
 
 **Note**: Type `8309` is the official GPT type GUID for Linux LUKS partitions, ensuring proper identification by system tools and partition managers.[1][2][3]
+
+
+
+
 
 ***
 
