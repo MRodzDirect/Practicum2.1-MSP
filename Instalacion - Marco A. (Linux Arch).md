@@ -76,7 +76,7 @@ timedatectl status
 
 ### Old partition Layout
 
-![image-20251009114117403](.\assets\arch-optiplex7010\image-20251009114117403.png)
+![image-20251009114117403](./assets/arch-optiplex7010/image-20251009114117403.png)
 
 ### Partition Layout Decision
 
